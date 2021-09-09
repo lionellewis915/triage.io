@@ -67,6 +67,7 @@ exports.registerController = (req, res) => {
         };
 
         sgMail.send(emailData).then(() => {
+            console.log()
             console.log(`Email has been sent to ${email}`)
             return res.json({
                 message: `Email has been sent to ${email}`                
