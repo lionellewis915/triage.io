@@ -102,14 +102,14 @@ const Register = () => {
                   </button>
                 </div>
                 <div className="my-12 border-b text-center">
-                  <div className='leading-none px-2 inline-block text-sm text-gray-600 tracking-wide font-medium bg-wide transform translate-y-1/2'>
+                  <div className="leading-none px-2 inline-block text-sm text-gray-600 tracking-wide font-medium bg-wide transform translate-y-1/2">
                     Or sign in with Email
                   </div>
                 </div>
                 <div className="flex flex-col items-center">
                   <a
-                    href='/'
-                    className='w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5'
+                    href="/"
+                    className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5"
                   >
                     Sign In
                   </a>
@@ -118,7 +118,8 @@ const Register = () => {
             </div>
           </div>
           <div className="flex-1 bg-indigo-100 text-center hidden lg:flex">
-            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
+            <div
+              className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${authSvg})` }}
             ></div>
           </div>
